@@ -73,7 +73,7 @@ namespace AutomatedGES
             foreach (var model in deserializedResult)
             {
                 AddDataProcessTask(model.Id,
-                    model.Value,
+                    "10",
                     model.IndicatorValues.LastOrDefault() ?? "0",
                     model);
             }
